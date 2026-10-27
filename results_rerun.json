@@ -1,0 +1,60 @@
+{
+  "additive_pred_strict_rich_vcr": 0.12156250000000002,
+  "cells": {
+    "loose/plain": {
+      "accuracy": 0.73125,
+      "mean_token_load": 10.065,
+      "vcr": 1.0,
+      "vcr_wilson95": [
+        0.9952209490028883,
+        1.0
+      ]
+    },
+    "loose/rich": {
+      "accuracy": 1.0,
+      "mean_token_load": 34.26,
+      "vcr": 1.0,
+      "vcr_wilson95": [
+        0.9952209490028883,
+        1.0
+      ]
+    },
+    "strict/plain": {
+      "accuracy": 0.48625,
+      "mean_token_load": 6.0225,
+      "vcr": 0.48625,
+      "vcr_wilson95": [
+        0.45176338166786534,
+        0.5208680422345553
+      ]
+    },
+    "strict/rich": {
+      "accuracy": 0.0,
+      "mean_token_load": 6.64,
+      "vcr": 0.0,
+      "vcr_wilson95": [
+        0.0,
+        0.004779050997111869
+      ]
+    }
+  },
+  "ci_loose_acc": [
+    0.23875000000000002,
+    0.30125
+  ],
+  "ci_strict_acc": [
+    0.45125,
+    0.52125
+  ],
+  "ci_vcr_interaction": [
+    0.45125,
+    0.52125
+  ],
+  "d_loose_acc": 0.26875000000000004,
+  "d_strict_acc": 0.48625,
+  "digest": "a37af8dd6eb7e159",
+  "n_tasks": 800,
+  "naive_miss_strict_rich_vcr": -0.12156250000000002,
+  "seed": 20261027,
+  "vcr_interaction": 0.48625
+}

@@ -1,0 +1,60 @@
+{
+  "additive_pred_strict_rich_vcr": 0.125,
+  "cells": {
+    "loose/plain": {
+      "accuracy": 0.67,
+      "mean_token_load": 10.213333333333333,
+      "vcr": 1.0,
+      "vcr_wilson95": [
+        0.9873565700022643,
+        0.9999999999999999
+      ]
+    },
+    "loose/rich": {
+      "accuracy": 1.0,
+      "mean_token_load": 34.85333333333333,
+      "vcr": 1.0,
+      "vcr_wilson95": [
+        0.9873565700022643,
+        0.9999999999999999
+      ]
+    },
+    "strict/plain": {
+      "accuracy": 0.5,
+      "mean_token_load": 6.1066666666666665,
+      "vcr": 0.5,
+      "vcr_wilson95": [
+        0.4437784961119509,
+        0.556221503888049
+      ]
+    },
+    "strict/rich": {
+      "accuracy": 0.0,
+      "mean_token_load": 6.72,
+      "vcr": 0.0,
+      "vcr_wilson95": [
+        0.0,
+        0.012643429997735661
+      ]
+    }
+  },
+  "ci_loose_acc": [
+    0.28,
+    0.3833333333333333
+  ],
+  "ci_strict_acc": [
+    0.44333333333333336,
+    0.5566666666666666
+  ],
+  "ci_vcr_interaction": [
+    0.44333333333333336,
+    0.5566666666666666
+  ],
+  "d_loose_acc": 0.32999999999999996,
+  "d_strict_acc": 0.5,
+  "digest": "8544d37e1807928d",
+  "n_tasks": 300,
+  "naive_miss_strict_rich_vcr": -0.125,
+  "seed": 101,
+  "vcr_interaction": 0.5
+}
